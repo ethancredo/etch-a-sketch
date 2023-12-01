@@ -1,16 +1,17 @@
 .sketch-container {
-    width: 600px;
+    max-width: 700px;
 }
 .sketch-row {
     display: flex;
 }
 
 .grid-item {
-    background-color: gray;
-    min-width: 20px;
-    min-height: 20px;
+    background-color: rgb(226, 226, 226);
+    min-width: 5px;
+    min-height: 5px;
     aspect-ratio: 1/1;
     height: 100%;
     flex-grow: 1;
+    border: .1px solid rgba(200, 200, 200, .2);
 }
 

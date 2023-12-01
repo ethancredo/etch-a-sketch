@@ -12,15 +12,28 @@
     </header>
 
     <main class="container">
-        <div class="sketch-container">
+        <div class="menu">
+            <!-- <label for="color-picker">Select Color:</label>
+            <input type="color" value="" name="color-picker" id="color-picker"  /> -->
+            <button class="btnCanvas">Set canvas size</button>
 
+            <label for="sliderCanvasSize">Size:</label>
+            <span class="canvasValue"></span>
+            <input type="range" min="10" max="100" class="sliderCanvasSize">
+
+            <label for="colorPicker">Color:</label>
+            <input type="color" name="colorPicker" class="colorPicker">
+            <span class="colorValue">#000000</span>
+
+            <button class="btnReset">Reset</button>
         </div>
+        <br>
     </main>
 
     <footer class="footer">
 
     </footer>
 
-    <script src="js/generate-grid.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
