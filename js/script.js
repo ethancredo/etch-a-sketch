@@ -68,7 +68,7 @@ sliderCanvasSize.addEventListener('mouseup', function() {
     setCanvas();
 });
 
-// change sketch color
+// change sketch color on input and value on label
 let colorValue = document.querySelector('.colorValue');
 let colorPicker = document.querySelector('.colorPicker');
 colorPicker.oninput = function() {
